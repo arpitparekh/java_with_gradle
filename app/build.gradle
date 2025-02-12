@@ -25,6 +25,7 @@ dependencies {
     implementation libs.guava
 
     implementation 'mysql:mysql-connector-java:8.0.33'
+    implementation 'org.apache.tika:tika-core:2.7.0'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
