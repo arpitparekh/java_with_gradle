@@ -26,6 +26,10 @@ dependencies {
 
     implementation 'mysql:mysql-connector-java:8.0.33'
     implementation 'org.apache.tika:tika-core:2.7.0'
+
+    implementation 'com.zaxxer:HikariCP:6.2.1'  // connection pooling
+    implementation 'org.slf4j:slf4j-api:2.0.9' // slf4j-api
+    implementation 'ch.qos.logback:logback-classic:1.4.14'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
